@@ -9,6 +9,7 @@
 
 ## Tecnologias utilizadas
 + HTML, CSS (Framework Bootstrap);
++ JavaScript (Manipulação de DOM c/ alertas);
 + Photoshop/Illustrator (Manipulação de imagens);
 + Sublime Text, Github CodeSpaces, Visual Studio (IDE's);
 + Microsoft Teams (Reuniões e comunicação geral);

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <!-- Metas tag (caracteres, compatibilidade e responsividade) -->
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width. initial-scale=1.0">
+      <!-- Tag para adicionar título ao site -->
+      <title>UniCloud TS</title>
+      <!-- Tag para adicionar ícone ao site -->
+      <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <!-- Awesomefonts CDN -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- Link do CSS -->
+      <link rel="stylesheet" href="../css/style.css">
+   </head>
+   <body>
+      <!-- Header - Midias socias -->
+      <header class="header navbar navbar-expand-lg navbar-dark bg-black py-3">
+         <div class="container">
+            <!-- Informações de contato (esquerda) -->
+            <ul class="header-email-tel navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item"><i class="fa-solid fa-envelope"></i>atendimento@unicloudts.com</li>
+               <li class="nav-item"><i class="fa-solid fa-phone"></i>(11) 98888-8888</li>
+            </ul>
+            <!-- Redes sociais (direita) -->
+            <ul class="header-socialmidias navbar-nav ms-auto mb-2 mb-lg-0">
+               <li class="nav-item"><a class="nav-link" href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+               <li class="nav-item"><a class="nav-link" href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+               <li class="nav-item"><a class="nav-link" href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+         </div>
+      </header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+         <div class="container">
+            <!-- Logo navbar -->
+            <a class="navbar-brand" href="#home"><img class="navbar-brand" src="../images/unicloud-logo.png" width="160px" height="60px"></a>
+            <!-- Responvidade ao diminuir a tela (Menu hamburguer) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" arial-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <!-- Navbar links -->
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" href="#about-us">Sobre nós</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#services">Serviços</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#partners">Parceiros</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="btn btn-outline-info mt-1" href="#contact">Entre em contato</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- MAIN SECTION -->
+      <main>
+         <!-- Valores -->
+         <section class="values" id="home">
+            <!-- Sliders do carrossel (Marcação) -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+               <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+               </div>
+               <div class="carousel-inner">
+                  <!-- Imagem bg do carrossel -->
+                  <img src="../images/bg-main.png" class="bg-values d-block w-100" height="450px" alt="Logo da empresa">
+                  <!-- Logo da empresa -->
+                  <img src="../images/ico.png" alt="Logo da Empresa" class="mx-auto d-block my-4 logo-empresa" width="150px" height="150px">
+                  <!-- 1º Valor do carrossel -->
+                  <div class="carousel-item active">
+                     <div class="carousel-caption d-none d-md-block">
+                        <h4>Inovação Constante</h4>
+                        <p>Acreditamos na busca incessante pela inovação. Valorizamos a criatividade e a evolução contínua para oferecer soluções tecnológicas cada vez mais avançadas, proporcionando um diferencial competitivo aos nossos clientes.</p>
+                        <p>
+                           <a href="#about-us" class="btn  mt-3">Saiba mais
+                           <a/>
+                        </p>
+                     </div>
+                  </div>
+                  <!-- 2º Valor do carrossel -->
+                  <div class="carousel-item">
+                  <div class="carousel-caption d-none d-md-block">
+                  <h4>Integridade e Confiança</h4>
+                  <p>Nossa empresa é fundamentada na integridade e na construção de relacionamentos baseados na confiança. Operamos de maneira ética, mantendo transparência em todas as interações e comprometendo-nos a agir com responsabilidade em todos os aspectos do nosso trabalho.</p>
+                  <p><a href="#about-us" class="btn mt-3">Saiba mais<a/></p>
+                  </div>
+                  </div>
+                  <!-- 3º Valor do carrossel -->
+                  <div class="carousel-item">
+                  <div class="carousel-caption d-none d-md-block">
+                  <h4>Compromisso com o Cliente</h4>
+                  <p>O compromisso com nossos clientes é primordial na UniCloud. Buscamos compreender suas necessidades, oferecer suporte proativo e fornecer soluções personalizadas que atendam e excedam suas expectativas, priorizando sempre sua satisfação e sucesso.</p>
+                  <p><a href="#about-us" class="btn mt-3">Saiba mais<a/></p>
+                  </div>
+                  </div>
+               </div>
+               <!-- Botões do carrossel -->
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+               </button>
+            </div>
+         </section>
+         <!-- Segunda (Parceiros) -->
+         <section class="our-partners" id="partners">
+         <div class="container py-4">
+         <h2>Nossos Parceiros</h2>
+         <div class="partners-img d-flex justify-content-between align-items-center">
+         <!-- Harness -->
+         <figure class="figure">
+         <img src="../images/harness.png" class="figure-img img-fluid rounded" alt="..." width="150px" height="50px">
+         </figure>
+         <!-- Microsoft -->
+         <figure class="figure">
+         <img src="../images/microsoft.svg" class="figure-img img-fluid rounded" alt="..." width="150px" height="50px">
+         </figure>
+         <!-- DataDOG -->
+         <figure class="figure">
+         <img src="../images/datadog.svg" class="figure-img img-fluid rounded" alt="..." width="100px" height="50px">
+         </figure>
+         <!-- VmWare -->
+         <figure class="figure">
+         <img src="../images/vmware.svg" class="figure-img img-fluid rounded" alt="..." width="100px" height="50px">
+         </figure>
+         <!-- Google -->
+         <figure class="figure">
+         <img src="../images/google.svg" class="figure-img img-fluid rounded" alt="..." width="100px" height="50px">
+         </figure>
+         <!-- Sony -->
+         <figure class="figure">
+         <img src="../images/sony.svg" class="figure-img img-fluid rounded" alt="..." width="100px" height="50px">
+         </figure>
+         <!-- Azure -->
+         <figure class="figure">
+         <img src="../images/azure.svg" class="figure-img img-fluid rounded" alt="..." width="100px" height="50px">
+         </figure>
+         </div>
+         </div>   
+         </div>   
+         </div>
+         </section>
+         <!-- Terceira (Serviços Oferecidos) -->
+         <section id="services" class="our-services">
+         <div class="container py-3">
+         <h2 class="text-center">Conheça nossos principais serviços</h2>
+         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+         <!-- Telemetry -->
+         <div class="col">
+         <div class="card">
+         <img src="../images/telemetry-card.jpg" class="card-img-top" alt="..." height="250px">
+         <div class="card-body">
+         <h5 class="card-title">TELEMETRY</h5>
+         <p class="card-text">Automatiza coleta de dados, monitorando sistemas para decisões e eficiência.</p>
+         </div>
+         <div class="d-flex justify-content-around mb-4">
+         <button class="btn btn-primary">Saiba mais</button>
+         </div>
+         </div>
+         </div>
+         <!-- Infra -->
+         <div class="col">
+         <div class="card">
+         <img src="../images/infraestrutura-card.jpg" class="card-img-top" alt="..." height="250px">
+         <div class="card-body">
+         <h5 class="card-title">INFRAESTRUTURA</h5>
+         <p class="card-text">Gerenciamento e suporte (Servidores, redes e software para operações)</p>
+         </div>
+         <div class="d-flex justify-content-around mb-4">
+         <button class="btn btn-primary">Saiba mais</button>
+         </div>
+         </div>
+         </div>
+         <!-- Move To Cloud -->
+         <div class="col">
+         <div class="card">
+         <img src="../images/cloud-card.jpg" class="card-img-top" alt="..." height="250px">
+         <div class="card-body">
+         <h5 class="card-title">MOVE TO CLOUD</h5>
+         <p class="card-text">Migração de dados e sistemas para nuvem, garantindo flexibilidade.</p>
+         </div>
+         <div class="d-flex justify-content-around mb-4">
+         <button class="btn btn-primary">Saiba mais</button>
+         </div>
+         </div>
+         </div>
+         <!-- Cloud Governance -->
+         <div class="col">
+         <div class="card">
+         <img src="../images/governance-card.jpg" class="card-img-top" alt="..." height="250px">
+         <div class="card-body">
+         <h5 class="card-title">CLOUD GOVERNANCE</h5>
+         <p class="card-text">Estratégia organizacional para direção, controle e garantia de conformidade na gestão de serviços e recursos em nuvem.</p>
+         </div>
+         <div class="d-flex justify-content-around mb-4">
+         <button class="btn btn-primary">Saiba mais</button>
+         </div>
+         </div>
+         </div>
+         <!-- APM -->
+         <div class="col">
+         <div class="card">
+         <img src="../images/apm-card.jpg" class="card-img-top" alt="..." height="250px">
+         <div class="card-body">
+         <h5 class="card-title">APM</h5>
+         <p class="card-text"><em>(Application Performance Monitoring)</em> monitoramento e gerenciamento do desempenho de aplicativos para otimizar a experiência do usuário.</p>
+         </div>
+         <div class="d-flex justify-content-around mb-4">
+         <button class="btn btn-primary">Saiba mais</button>
+         </div>
+         </div>
+         </div>
+         <!-- Smart Continuous Delivery -->
+         <div class="col">
+         <div class="card">
+         <img src="../images/smartcontinuousdelivery-card.jpg" class="card-img-top" alt="..." height="250px">
+         <div class="card-body">
+         <h5 class="card-title">SMART CONTINUOUS DELIVERY</h5>
+         <p class="card-text">Método automatizado para implementar atualizações de software de forma contínua, otimizando o processo de desenvolvimento e garantindo eficiência</p>
+         </div>
+         <div class="d-flex justify-content-around mb-4">
+         <button class="btn btn-primary">Saiba mais</button>
+         </div>
+         </div>
+         </div>
+         <div class="container py-2">
+         <button class="btn btn-primary moreservices">Conheça outros serviços clicando aqui</button>
+         </div>
+         </div>
+         </section>
+         <!-- Quarta Parte (Contato) -->
+         <section class="contact-us bg-dark" id="contact">
+         <div class="container py-4">
+         <h2>Interessado em nossos serviços?</h2>
+         <h5>Deixe seus dados e nosso time irá entrar em contato.</h5>
+         <form>
+         <div class="mb-3">
+         <label for="name" class="form-label">Seu nome</label>
+         <input type="email" class="form-control" id="name" placeholder="Gabriel F Granado">
+         </div>
+         <div class="mb-3">
+         <label for="name" class="form-label">Telefone</label>
+         <input type="number" class="form-control" id="tel" placeholder="(11) 98888-8888">
+         </div>
+         <div class="mb-3">
+         <label for="email" class="form-label">Email</label>
+         <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu e-mail">
+         </div>
+         <button type="submit" class="btn btn-primary">Enviar</button>
+         <div id="emailHelp" class="form-text"><strong> A UniCloud</strong> <em>nunca irá compartilhar seus dados pessoais com terceiros sem prévia autorização! Respeitamos a <a href="google.com.br">LGPD</a> (Lei Geral de Proteção de Dados)</em></div>
+         </form>
+         </div>
+         </section>
+         <!-- Footer -->
+         <footer class="py-4 bg-secondary text-white">
+            <div class=" container row justify-content-around">
+            <div class="col-lg-8">
+               <div class="single-box">
+                  <!-- Logo + história -->
+                  <img src="../images/unicloud-logo.png" alt="" width="200px" height="75px">
+                  <p><br>Fundada em <em>2020</em>, a <strong>UniCloud Technological Solutions</strong> se tornou uma das melhores empresas de soluções tecnológicas na computação em nuvem. Apesar do cenário da época ser de calamidade no mundo todo, a empresa ficou conhecida internacionalmente pela qualidade excepcional de seus serviços.</p>
+                  <a>UniCloud Technological Solutions &copy;, 2023 </a>
+               </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+               <div class="single-box ">
+                  <!-- Parte de serviços prestados -->
+                  <h4>Serviços</h4>
+                  <ul class="footer-item">
+                     <li><a class="footer-services" href="services">Telemetry</a></li>
+                     <li><a class="footer-services" href="services">Infraestrutura</a></li>
+                     <li><a class="footer-services" href="services">APM</a></li>
+                     <li><a class="footer-services" href="services">Smart Continuous Delivery</a></li>
+                     <li><a class="footer-services" href="services">Cloud Governance</a></li>
+                     <li><a class="footer-services" href="services">Observality</a></li>
+                     <li><a class="footer-services" href="services">Move to Cloud</a></li>
+                     <li><a class="footer-services" href="services">Cloud Mobility</a></li>
+                     <li><a class="footer-services" href="services">Data-driven</a></li>
+                  </ul>
+                  <!-- Redes sociais -->
+                  <h4>Redes Sociais</h4>
+                  <p class="socials">
+                     <a class="footer-socialmidias" href="#"><i class="fa fa-facebook"></i></a>
+                     <a class="footer-socialmidias" href="#"><i class="fa fa-instagram"></i></a>
+                     <a class="footer-socialmidias" href="#"><i class="fa fa-linkedin"></i></a>
+                     <a class="footer-socialmidias" href="#"><i class="fa fa-twitter"></i></a>
+                  </p>
+               </div>
+            </div>
+         </footer>
+      </main>
+      <!-- Bootstrap Script -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <!-- Kit Fontawasome -->
+      <script src="https://kit.fontawesome.com/030cad1a95.js" crossorigin="anonymous"></script>
+      <!-- Js -->
+      <script src="../js/main.js"></script>        
+   </body>
+</html>

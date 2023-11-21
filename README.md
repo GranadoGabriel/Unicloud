@@ -25,3 +25,5 @@
 + [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 + [FontAwesome Icons](https://fontawesome.com/icons)
 + [Google Fonts](https://fonts.google.com)
++ [GetCSS Scan - Biblioteca de Efeitos CSS](https://getcssscan.com/css-box-shadow-examples)
+

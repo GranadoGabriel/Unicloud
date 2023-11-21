@@ -5,10 +5,19 @@
 
 ### A Unicloud
 
-### Participantes
+## Participantes
+
+## Tecnologias utilizadas
++ HTML, CSS (Framework Bootstrap);
++ Photoshop/Illustrator (Manipulação de imagens);
++ Sublime Text, Github CodeSpaces, Visual Studio (IDE's);
++ Microsoft Teams (Reuniões e comunicação geral);
++ Discord (Organização do projeto e arquivos).
++ Git para controles de versão.
 
 
-### Referências/Bibliotecas
+## Referências/Bibliotecas
++ [Repositórios do Github](github.com)
 + [Unsplash - Imagens utilizadas no projeto](https://unsplash.com/pt-br)
 + [MDN Documentações](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 + [W3 Schools - HTML](https://www.w3schools.com/html/default.asp)

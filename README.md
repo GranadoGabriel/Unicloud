@@ -27,4 +27,6 @@
 + [FontAwesome Icons](https://fontawesome.com/icons)
 + [Google Fonts](https://fonts.google.com)
 + [GetCSS Scan - Biblioteca de Efeitos CSS](https://getcssscan.com/css-box-shadow-examples)
++ [Documentação JavaScript (DevDocs)](https://devdocs.io/javascript/);
++ [W3 Schools - JavaScript](https://www.w3schools.com/js/default.asp);
 

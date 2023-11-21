@@ -250,16 +250,20 @@
          <h5>Deixe seus dados e nosso time irá entrar em contato.</h5>
          <form>
          <div class="mb-3">
-         <label for="name" class="form-label">Seu nome</label>
-         <input type="email" class="form-control" id="name" placeholder="Gabriel F Granado">
+         <label for="name" class="form-label">Nome</label>
+         <input type="email" class="form-control" id="name" placeholder="Gabriel F Granado" required>
          </div>
          <div class="mb-3">
          <label for="name" class="form-label">Telefone</label>
-         <input type="number" class="form-control" id="tel" placeholder="(11) 98888-8888">
+         <input type="number" class="form-control" id="tel" placeholder="(11) 98888-8888" required>
+         <label for="whats" class="form-label">Aceita receber mensagens em seu WhatsApp?
+            <input type="checkbox" class="form-control" id="whats" required> Sim
+            <input type="checkbox" class="form-control" id="whats" required> Não
+            </label>
          </div>
          <div class="mb-3">
          <label for="email" class="form-label">Email</label>
-         <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu e-mail">
+         <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="meu.email@provedor.com.br" required>
          </div>
          <button type="submit" class="btn btn-primary btn-contactForm" onclick="contactForm()">Enviar</button>
          <div id="emailHelp" class="form-text"><strong> A UniCloud</strong> <em>nunca irá compartilhar seus dados pessoais com terceiros sem prévia autorização! Respeitamos a <a href="google.com.br">LGPD</a> (Lei Geral de Proteção de Dados)</em></div>

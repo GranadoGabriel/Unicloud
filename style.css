@@ -1,0 +1,315 @@
+/* Google Fonts - Roboto */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* Paleta de cores - Variavéis root */
+  :root {
+  	--darkturquoise: #00CED1;
+  	--midnightblue: #191970;
+
+
+  	--constrast: #E9B824;
+
+  	--black: #1c1c1c;
+  	--white: #fafafa;
+  }
+
+
+/* Definindo a fonte para todo o site e reset css básico  */
+  * {
+  	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+  	font-family: 'Roboto', sans-serif;
+  }
+
+/* ********* Header - Social Midias */
+
+ .header {
+    padding: 5px 0;
+    height: 40px; /* Altura */
+    background-color: var(--white);
+    color: var(--black);
+  }
+
+ .header-email-tel i, .header-socialmidias i{
+ 	margin: 0 15px;
+ 	color: black;
+ 	font-size: 20px;
+ }
+
+
+/* ******** Navbar */
+ 
+	/* Background da navbar */
+ .bg-dark {
+ 	background-color: var(--midnightblue)!important; 
+ 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ }
+
+ /* Links da navbar */
+ .navbar-nav .nav-item .nav-link {
+ 	margin: 0 5px;
+ 	color: var(--white);
+ 	border-bottom: 2px solid transparent; /* Transparente pois adicionei cor na transição */
+ 	border-radius: 2px;
+ 	transition: border-color 0.3s ease; /* Anim transição afetando a border-color */
+ }
+
+ .navbar-nav .nav-item .nav-link:active,
+ .navbar-nav .nav-item .nav-link:hover,
+ .navbar-nav .nav-item .nav-link:focus {
+ 	color: var(--darkturquoise);
+ 	border-color: var(--darkturquoise);
+ }
+
+
+ /* Menu hamburguer */
+ .navbar-toggler {
+ 	border: 2px solid var(--darkturquoise)!important;
+ }
+
+  .navbar-toggler:active,
+  .navbar-toggler:hover,
+  .navbar-toggler:focus {
+ 	background-color: var(--darkturquoise);
+ 	outline: none;
+ }
+
+
+/* *********** Valores  */
+ /* Carrossel de imagens c/ valores */
+	/* Efeito de sombra para destacar o texto */
+ .carousel-inner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+ }
+
+
+	/* Logo */
+ .values {
+    position: relative;
+  }
+
+  .values img.logo-empresa {
+    position: absolute;
+    top: 20px; /* Ajuste a posição vertical conforme necessário */
+    left: 50%; /* Posiciona no centro horizontalmente */
+    transform: translateX(-50%); /* Ajusta para o centro horizontal */
+    z-index: 999; /* Para garantir que fique acima dos itens do carrossel */
+  }
+
+  /* Botão dos valores */
+
+  .values .btn {
+  	background-color: var(--darkturquoise);
+  	color: var(--white);
+  	border: none;
+  	outline: none;
+  	transition: background-color 0.3s ease;
+
+  }
+  .values .btn:hover {
+  	background-color: var(--midnightblue);
+  	color: var(--darkturquoise);
+  }
+
+/* ********** Parceiros */
+ 
+ .our-partners {
+ 	background-color: var(--white);
+ 	color: var(--midnightblue);
+ 	padding: 20px;
+ 	margin: 0 10px;
+ 	font-weight: 600;
+ }
+
+ .our-partners .figure {
+ 	margin: 0 5px;
+ }
+
+/* *********** Serviços */
+
+
+ 
+ /* Background */
+.our-services {
+	background-color: var(--white);
+}
+
+ /* Título dos serviços */
+ .text-center {
+	color: var(--midnightblue);
+	font-weight: 600;
+ }
+
+ /* borda do card */
+ .card-title {
+	color: var(--darkturquoise);
+	font-weight: 600;
+ } 
+
+ .card {
+	border-bottom-left-radius:  15px;
+	border-bottom-right-radius:  15px;
+	border-color: var(--midnightblue);
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+ }
+
+ .card:hover {
+ 	border-color: var(--darkturquoise);
+ 	cursor:pointer;
+ }
+
+ /* Img do card */
+ .card-img-top {
+ 	border-bottom: 4px solid var(--darkturquoise);
+ }
+
+
+ /* Botão - Saiba Mais Card */
+ .btn.btn-primary {
+	background-color: var(--white);
+	border: 1px solid var(--midnightblue);
+	border-radius: 5px;
+	color: var(--midnightblue);
+	transition: border-color 0.5s ease;
+ }
+
+ .btn.btn-primary:hover {
+	background-color: var(--darkturquoise);
+	border-color: var(--midnightblue);
+ }
+
+ .btn.btn-primary:active,
+ .btn.btn-primary:focus {
+ 	background-color: var(--darkturquoise);
+ }
+
+ /* Parte externa do Body */
+ .card-body {
+ 	padding: 25px;
+ 	margin-top: -15px;
+ }
+
+ /* Botão Mais serviços */
+
+ .btn.btn-primary .btn-more {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ .btn.btn-primary.moreservices{
+ 	margin-top: 10px;
+ 	padding: 15px;
+ 	margin-bottom: -30px;
+ 	background-color: var(--white);
+ 	color: var(--midnightblue);
+	margin-left: 30px;
+	border-color: var(--darkturquoise);
+ }
+  .btn.btn-primary.moreservices:hover{
+ 	background-color: var(--darkturquoise);
+ }
+
+/* Contato */
+
+ .contact-us {
+ 	color: var(--white);
+ }
+
+ .contact-us form {
+ 	padding: 10px;
+ 	margin-top: 20px;
+ }
+
+
+/* Footer */
+ 
+ footer {
+ 	padding: 85px 0;
+ }
+
+ .bg-secondary {
+ 	background-color: var(--black)!important;
+ 	color: var(--white);
+ }
+
+ .single-box {
+ 	padding-top: 20px;
+ }
+
+ .single-box p{
+ 	line-height: 1.9;
+ }
+
+ .single-box h4 {
+ 	font-size: 20px;
+ 	font-weight: 700;
+ }
+
+ .single-box .footer-item{
+ 	list-style: none;
+
+ 	padding: 0;
+ }
+
+ .single-box a{
+ 	font-size: 12px;
+ 	color: var(--white);
+ }
+
+ .footer-socialmidias {
+ 	color: var(--white);
+ }
+
+ .footer-services {
+ 	color: 
+ }
+
+ .socials i {
+ 	margin-top: 5px;
+ 	padding: 0 5px;
+ 	font-size: 2em;
+ }
+
+
+
+ 
+/* ****** MIDIA QUERIES (RESPONSIVIDADE PARA MOBILE) */
+
+/* Desativar header socialmidias */
+ @media (max-width: 990px) {
+  .header {
+    display: none;
+  }
+  .header-email-tel {
+    display: none;
+  }
+
+ }
+
+
+/* Ajustar e desativar carrossel */
+  @media (max-width: 770px) { 
+
+  .values .carousel-indicators,
+  .values .carousel-control-prev,
+  .values .carousel-control-next {
+    display: none;
+  }
+
+  .values .bg-values {
+    height: 250px;
+  }
+
+  .values .logo-empresa {
+    height: 100px;
+    width: 100px;
+  }
+}

@@ -83,7 +83,7 @@
                         <h4>Inovação Constante</h4>
                         <p>Acreditamos na busca incessante pela inovação. Valorizamos a criatividade e a evolução contínua para oferecer soluções tecnológicas cada vez mais avançadas, proporcionando um diferencial competitivo aos nossos clientes.</p>
                         <p>
-                           <a href="#about-us" class="btn  mt-3">Saiba mais
+                           <a href="#about-us" class="btn-knowMore btn  mt-3 onclick="knowMore()"">Saiba mais
                            <a/>
                         </p>
                      </div>
@@ -101,7 +101,7 @@
                   <div class="carousel-caption d-none d-md-block">
                   <h4>Compromisso com o Cliente</h4>
                   <p>O compromisso com nossos clientes é primordial na UniCloud. Buscamos compreender suas necessidades, oferecer suporte proativo e fornecer soluções personalizadas que atendam e excedam suas expectativas, priorizando sempre sua satisfação e sucesso.</p>
-                  <p><a href="#about-us" class="btn mt-3 btn-knowMore">Saiba mais<a/></p>
+                  <p><a href="#about-us" class="btn mt-3 btn-knowMore" onclick="knowMore()">Saiba mais<a/></p>
                   </div>
                   </div>
                </div>
@@ -247,28 +247,39 @@
          <section class="contact-us bg-dark" id="contact">
          <div class="container py-4">
          <h2>Interessado em nossos serviços?</h2>
-         <h5>Deixe seus dados e nosso time irá entrar em contato.</h5>
+         <h5>Preencha o formulário de contato e nossa equipe irá entrar em contato!</h5>
          <form>
+
+            <!-- Nome -->
          <div class="mb-3">
          <label for="name" class="form-label">Nome</label>
-         <input type="email" class="form-control" id="name" placeholder="Gabriel F Granado" required>
+         <input type="text" class="form-control" id="name" placeholder="Gabriel F Granado" required>
          </div>
          <div class="mb-3">
-         <label for="name" class="form-label">Telefone</label>
+         <label for="enterprise" class="form-label">Empresa</label>
+         <input type="text" class="form-control" id="enterprise" placeholder="Unicloud LTDA" required>
+         </div>
+            <!-- Telefone  (com autorização wpp)-->
+         <div class="mb-3">
+         <label for="phone" class="form-label">Telefone</label>
          <input type="number" class="form-control" id="tel" placeholder="(11) 98888-8888" required>
          <label for="whats" class="form-label">Aceita receber mensagens em seu WhatsApp?</label>
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-              <label class="form-check-label" for="flexRadioDefault1"> Sim
+              <label class="form-check-label" for="flexRadioDefault1" checked="checked"> Sim
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
               <label class="form-check-label" for="flexRadioDefault1"> Não
-            
+                 
+            <!-- E-mail -->
          </div>
          <div class="mb-3">
          <label for="email" class="form-label">Email</label>
          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="meu.email@provedor.com.br" required>
          </div>
+
+         <!-- Enviar -->
          <button type="submit" class="btn btn-primary btn-contactForm" onclick="contactForm()">Enviar</button>
-         <div id="emailHelp" class="form-text"><strong> A UniCloud</strong> <em>nunca irá compartilhar seus dados pessoais com terceiros sem prévia autorização! Respeitamos a <a href="google.com.br">LGPD</a> (Lei Geral de Proteção de Dados)</em></div>
+          <!-- Aviso LGPD -->
+                 <div id="emailHelp" class="form-text"><strong> A UniCloud</strong> <em>nunca irá compartilhar seus dados pessoais com terceiros sem prévia autorização! Respeitamos a <a href="google.com.br">LGPD</a> (Lei Geral de Proteção de Dados)</em></div>
          </form>
          </div>
          </section>
